@@ -1,0 +1,110 @@
+html {
+    scroll-padding-top: 3em;
+}
+.circle {
+    width: 20em;
+    height: 20em;
+    border-radius: 3%;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0em;
+    left: 0;
+}
+
+
+body {
+    background-color: #E4E0E1;
+    color: #493628;
+}
+
+#bio-name {
+    margin-bottom: 1em;;
+}
+
+.body-wrapper {
+    margin: 2em;
+
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.header {
+    background-color: #493628;
+    height: 3em;
+}
+
+.footer {
+
+    width: 100%;
+    height: 4em;
+    background-color: #493628;
+    text-align: center;
+    color: #f2e9e4;
+}
+
+.bio {
+    max-width: 37em;
+    margin-left: 2em;;
+}
+
+.bio p {
+    text-align: justify;
+}
+
+.navbar-custom {
+    background-color: #493628;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    max-height: 3em;
+}
+
+.navbar-custom a {
+    color: #f2e9e4;
+}
+
+.social-icons-wrapper {
+    margin-top: 1.5em;
+    margin-bottom: 0.4em;
+
+}
+
+.social-icons-wrapper img {
+    filter: invert(18%) sepia(34%) saturate(467%) hue-rotate(310deg) brightness(90%) contrast(86%);
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+.social-icons-wrapper img:hover {
+    filter: invert(13%) sepia(13%) saturate(2032%) hue-rotate(201deg) brightness(10%) contrast(94%);
+}
+
+.email-address {
+    font-family: monospace;
+}
+
+.navbar a,
+.footer a {
+    color: #f2e9e4;
+}
+
+.navbar a:hover,
+.footer a:hover {
+    color: #f2e9e4d0;
+}
+
+.paper-link {
+    text-decoration: none;
+}
+
+.publication_item {
+    margin-bottom: 2em;
+}

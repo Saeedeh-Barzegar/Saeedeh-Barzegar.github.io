@@ -101,7 +101,7 @@ body {
     color: #f2e9e4d0;
 }
 
-.paper-link {
+.paper-link, .code-link {
     text-decoration: none;
 }
 
